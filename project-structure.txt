@@ -1,0 +1,33 @@
+customer-churn-prediction/
+│
+├── data/
+│   ├── raw/
+│   │   └── customer_churn_data.csv
+│   └── processed/
+│       └── preprocessed_data.csv
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── model_evaluation.py
+│   └── utils.py
+│
+├── notebooks/
+│   ├── 01_exploratory_data_analysis.ipynb
+│   └── 02_model_interpretation.ipynb
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_data_preprocessing.py
+│   └── test_model_training.py
+│
+├── config/
+│   └── config.yaml
+│
+├── .gitignore
+├── requirements.txt
+├── setup.py
+├── README.md
+└── LICENSE
